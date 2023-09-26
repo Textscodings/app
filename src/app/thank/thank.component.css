@@ -1,0 +1,22 @@
+.has-bg-img{
+    background-image: url('https://images3.alphacoders.com/109/thumb-1920-1091916.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 800px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+@media(max-width: 420px) {
+    .has-bg-img{
+        width: 340px;
+        margin-top: 100px;
+        height: 430px;
+    }
+}
