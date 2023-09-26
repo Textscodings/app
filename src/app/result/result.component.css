@@ -1,0 +1,87 @@
+.ans h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Roboto Slab;
+    font-weight: 500;
+}
+.btn{
+    text-align: left;
+    margin-top: 20px;
+    border: none;
+}
+.btnn{
+    padding: 8px 17px;
+    border: none;
+    background-color: aqua;
+    margin-left: 25px;
+    border-radius: 18px;
+}
+label{
+    font-size: 20px;
+    font-family: Roboto Slab;
+    font-weight: 200;
+}
+.row{
+    border: none;
+}
+#demo{
+    font-family: Roboto Slab;
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 300px;
+}
+#display{
+    font-family: Roboto Slab;
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 300px;
+}
+#show{
+    font-family: Roboto Slab;
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 300px;
+}
+#displays{
+    font-family: Roboto Slab;
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 300px;
+}
+.but{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 100px;
+    margin-top: 400px;
+}
+.butn{
+    background-color: red;
+    color: white;
+    border-color: white;
+    padding: 5px 23px
+}
+
+@media(max-width: 420px) {
+    .btn{
+        margin-top: -20px;
+    }
+    .but{
+        margin-top: 550px;
+    }
+    #demo{
+        margin-left: 160px;
+    }
+    #show{
+        margin-left: 260px;
+    }
+    #display{
+        margin-left: 220px;
+    }
+    #diplays{
+        margin-left: -40px;
+    }
+}
